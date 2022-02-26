@@ -1,0 +1,9 @@
+chwal() {
+    FP=`realpath $1`
+    if [ -f "$FP" ]; then
+        echo -e "#!/bin/sh\nfeh --no-fehbg --bg-fill '${FP}'" > ~/.fehbg
+        echo "wallpaper set: $FP"
+    else
+        echo 'chwal: no such file'
+    fi
+}
