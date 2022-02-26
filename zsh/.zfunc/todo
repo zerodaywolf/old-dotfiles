@@ -1,0 +1,8 @@
+todo() {
+    if [ "$1" = "e" ]
+    then
+        vim ~/todo.md
+    else
+        less ~/todo.md
+    fi
+}

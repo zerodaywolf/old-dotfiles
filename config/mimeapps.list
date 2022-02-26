@@ -1,0 +1,8 @@
+[Default Applications]
+image/png=sxiv.desktop
+image/jpeg=sxiv.desktop
+application/xhtml+xml=firefox.desktop;mousepad.desktop;
+application/pdf=org.gnome.Evince.desktop;
+application/rss+xml=firefox.desktop;
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=chromium.desktop;
+text/plain=mousepad.desktop
