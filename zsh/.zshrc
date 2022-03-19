@@ -40,6 +40,7 @@ alias prm='/usr/bin/rm -i'
 alias rm='dl'
 alias fixvol='pactl set-sink-volume 0 +1%'
 alias mictest='arecord -vv -f dat /dev/null'
+alias teams='teams --disable-seccomp-filter-sandbox'
 
 #(cat ~/.cache/wal/sequences &)
 
