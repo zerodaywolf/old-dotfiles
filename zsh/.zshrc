@@ -43,8 +43,7 @@ alias mictest='arecord -vv -f dat /dev/null'
 alias teams='teams --disable-seccomp-filter-sandbox'
 
 #(cat ~/.cache/wal/sequences &)
-
-export PATH="${PATH}:${HOME}/.local/bin/:${HOME}/bin:${HOME}/.gem/ruby/2.7.0/bin:${HOME}/node_modules/.bin"
+source ~/.zshenv
 
 fpath=( ~/.zfunc ~/scripts/zsh-completions "${fpath[@]}" )
 autoload -Uz compinit

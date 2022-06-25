@@ -20,15 +20,15 @@ $HOME/.config/polybar/launch.sh
 /usr/bin/thunderbird &
 
 # rules
-bspc rule -a firefox desktop='^1'
-bspc rule -a Alacritty desktop='^2'
-bspc rule -a Evince desktop='^3'
-bspc rule -a "VirtualBox Manager" desktop='^4'
-bspc rule -a "VirtualBox Machine" desktop='^4'
-bspc rule -a "Microsoft Teams - Preview" desktop='^5'
-bspc rule -a discord desktop='^6'
-bspc rule -a Thunderbird desktop='^7'
-bspc rule -a qBittorrent desktop='^8'
+bspc rule -a firefox desktop='^1#focused:'
+bspc rule -a Alacritty desktop='^2#focused:'
+bspc rule -a Evince desktop='^3#focused:'
+bspc rule -a "VirtualBox Manager" desktop='^4#focused:'
+bspc rule -a "VirtualBox Machine" desktop='^4#focused:'
+bspc rule -a "Microsoft Teams - Preview" desktop='^5#focused:'
+bspc rule -a discord desktop='^6#focused:'
+bspc rule -a Thunderbird desktop='^7#focused:'
+bspc rule -a qBittorrent desktop='^8#focused:'
 
 # env
 export _JAVA_AWT_WM_NONREPARENTING=1
