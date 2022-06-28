@@ -3,7 +3,8 @@
 pgrep -x sxhkd > /dev/null || sxhkd &
 xsetroot -cursor_name left_ptr
 
-bspc monitor -d web terminal book vm work social email misc
+bspc monitor ^1 -d web terminal book vm work social email misc
+bspc monitor ^2 -d web terminal book vm work social email misc
 
 bspc config border_width         2
 bspc config window_gap          12
