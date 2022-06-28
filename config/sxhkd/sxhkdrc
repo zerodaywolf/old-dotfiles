@@ -74,10 +74,6 @@ super + shift + {comma,period}
 super + {_,shift + }{h,j,k,l}
 	bspc node -{f,s} {west,south,north,east}
 
-# focus the node for the given path jump
-#super + {p,b,comma,period}
-#	bspc node -f @{parent,brother,first,second}
-
 # focus the next/previous window in the current desktop
 super + {_,shift + }c
 	bspc node -f {next,prev}.local.!hidden.window
@@ -145,6 +141,9 @@ XF86AudioRaiseVolume
 	amixer -D pulse sset Master 5%+
 super + F12
 	amixer set Capture toggle
+
+# Brightness
+#XF86MonBrightnessUp
 
 # flameshot
 Print
